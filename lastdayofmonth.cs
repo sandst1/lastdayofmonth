@@ -6,6 +6,6 @@ class LastDayOfMonth
     {
         var now = DateTime.Now;
         var daysInMonth = DateTime.DaysInMonth(now.Year, now.Month);
-        Console.WriteLine($"{daysInMonth} days in month");       
+        Console.WriteLine($"Last day of month is {daysInMonth}");       
     }
 }

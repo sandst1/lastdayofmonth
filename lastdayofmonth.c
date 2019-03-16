@@ -21,7 +21,7 @@ bool leap_year(year)
     return false;
 }
 
-int get_days_in_month(struct tm* timeinfo)
+int last_day_of_month(struct tm* timeinfo)
 {
     if (timeinfo->tm_mon == 1 && leap_year(timeinfo->tm_year + 1900))
     {
@@ -38,5 +38,5 @@ int main(void)
     now = time(&now);
     timeinfo = localtime(&now);
 
-    printf("%d days in month\n", get_days_in_month(timeinfo));
+    printf("Last day of month is %d\n", last_day_of_month(timeinfo));
 }
