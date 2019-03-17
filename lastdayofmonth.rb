@@ -21,4 +21,4 @@ def last_day_of_month(d)
   end
 end
 
-print "Last day of month is #{last_day_of_month(DateTime.now()).to_s}\n"
+print "Last day of the month is #{last_day_of_month(DateTime.now()).to_s}\n"

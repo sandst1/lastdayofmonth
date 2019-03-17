@@ -29,4 +29,4 @@
     feb-leap-day
     (nth month-days (:month date))))
 
-(println (str "Last day of month is " (last-day-of-month today)))
+(println (str "Last day of the month is " (last-day-of-month today)))

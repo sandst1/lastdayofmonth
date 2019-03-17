@@ -9,6 +9,6 @@ class LastDayOfMonth
         TemporalAdjuster ta = TemporalAdjusters.lastDayOfMonth();
         LocalDate now = LocalDate.now();
         LocalDate lastDayOfMonth = now.with(ta);
-        System.out.println("Last day of month is " + lastDayOfMonth.getDayOfMonth());
+        System.out.println("Last day of the month is " + lastDayOfMonth.getDayOfMonth());
     }
 }

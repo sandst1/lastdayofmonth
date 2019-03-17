@@ -38,5 +38,5 @@ int main(void)
     now = time(&now);
     timeinfo = localtime(&now);
 
-    printf("Last day of month is %d\n", last_day_of_month(timeinfo));
+    printf("Last day of the month is %d\n", last_day_of_month(timeinfo));
 }

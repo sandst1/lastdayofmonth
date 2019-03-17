@@ -6,4 +6,4 @@ my $lastDay = DateTime->last_day_of_month(
     month => $today->month
 )->day;
 
-print "Last day of month is $lastDay\n";
+print "Last day of the month is $lastDay\n";
